@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Contacts</title>
+</head>
+
+<body>
+  <table border="2">
+    <thead>
+      <tr>
+        <th colspan="2">My contact information</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mail:</td>
+        <td>alexa.pavlovskaya@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Tel.:</td>
+        <td>+375291424293</td>
+      </tr>
+      <tr>
+        <td>Twitter:</td>
+        <td><a href="https://twitter.com/oneliohoff">oneliohoff</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <form action="mailto:alexa.pavlovskaya@gmail.com" method="post" enctype="text/plain">
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Contact me:</th>
+        </tr>
+      </thead>
+      <tr>
+        <td><label for="name">Your name:</label></td>
+        <td><input type="text" id="name" name="name"></td>
+      </tr>
+      <tr>
+        <td><label for="email">Your email:</label></td>
+        <td><input type="email" id="email" name="email"></td>
+      </tr>
+      <tr>
+        <td><label for="area">Text me:</label></td>
+        <td><textarea id="area" name="text" cols="50" rows="10"></textarea></td>
+      </tr>
+    </table>
+    <input type="submit" name="">
+  </form>
+</body>
+
+</html>
